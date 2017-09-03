@@ -1,13 +1,21 @@
-//es6 react helloworld
-
+//Packages
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// Create new component. 
+//My Libraries
+import SearchBar from './components/search_bar';
+
+const API_KEY = 'AIzaSyBSguVhOttTKJ_s8AekIyTv0MUovD8eByA';
+
+// Create new component.
 //This component should produce some HTML.
 
 const App = () => {
-	return <div>Hello, World!</div>;
+	return (
+		<div>
+			<SearchBar />
+		</div>
+	);
 }
 
 //Take this component's generated HTML
