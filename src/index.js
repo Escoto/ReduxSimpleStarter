@@ -37,6 +37,6 @@ class App extends Component {
 		);
 	}
 
-}//EDN APP
+}//EDN
 
 ReactDOM.render(<App />, document.querySelector('.container'));
