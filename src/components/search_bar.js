@@ -4,7 +4,7 @@ class SearchBar extends Component {
   constructor(args) {
       super(args);
 
-      this.state = {text:'ABC'};
+      this.state = {text:''};
   }
 
   render() {
