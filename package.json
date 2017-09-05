@@ -1,7 +1,7 @@
 {
-  "name": "redux-simple-starter",
+  "name": "YouTubeSearch",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Test Project to learn React, Redux and ES6",
   "main": "index.js",
   "repository": "https://github.com/Escoto/ReduxSimpleStarter.git",
   "scripts": {
