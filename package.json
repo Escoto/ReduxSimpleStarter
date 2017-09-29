@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/Escoto/YouTubeSearch.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "webpack-dev-server --host 0.0.0.0 --inline --content-base .",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
